@@ -14,14 +14,27 @@ public class task3 {
         Scanner scanner = new Scanner(System.in);
         int numberTask = scanner.nextInt();
 
-        if (numberTask == 1) {
-            Calk.calk();
+//        if (numberTask == 1) {
+//            Calk.calk();
+//
+//        } else if (numberTask == 2) {
+//            Array.arrays();
+//
+//        } else {
+//            System.out.println("данная задача еще не реализована");
 
-        } else if (numberTask == 2) {
-            Array.arrays();
+        switch (numberTask) {
 
-        } else {
-            System.out.println("данная задача еще не реализована");
+            case 1:
+                Calk.calk();
+                break;
+            case 2:
+                Array.arrays();
+                break;
+        }
+
+
+
         }
     }
-}
+
