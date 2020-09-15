@@ -11,13 +11,7 @@ public class Candys extends Setc{
         this.filling = filling;
     }
 
-    public String getFilling() {
-        return filling;
-    }
 
-    public void setFilling(String filling) {
-        this.filling = filling;
-    }
 
     @Override
     public String toString() {

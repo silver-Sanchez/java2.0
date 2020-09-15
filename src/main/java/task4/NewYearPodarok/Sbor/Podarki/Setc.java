@@ -18,29 +18,22 @@ public class Setc {
     public String getMade() {
         return made;
     }
-    public void setMade(String made) {
-        this.made = made;
-    }
+
 
     // price
     public double getPrice() {
         return price;
     }
-    public void setPrice(double price) {
-        this.price = price;
-    }
+
 
     // weight
     public double getWeight() {
         return weight;
     }
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
 
 
     @Override
     public String toString() {
-        return "производства = " + made + ", цена = " + price + ", вес = " + weight;
+        return "название = " + made + ", цена = " + price + ", вес = " + weight;
     }
 }

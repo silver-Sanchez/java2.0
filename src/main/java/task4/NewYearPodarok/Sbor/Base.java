@@ -5,6 +5,13 @@ import task4.NewYearPodarok.Sbor.Podarki.Kinder;
 import task4.NewYearPodarok.Sbor.Podarki.Setc;
 import task4.NewYearPodarok.Sbor.Podarki.Toys;
 
+
+
+//        Формируется новогодний подарок. Он может включать в себя разные сладости (Candy, Jellybean, etc.)
+//        У каждой сладости есть название, вес, цена и свой уникальный параметр.
+//        Необходимо собрать подарок из сладостей. Найти общий вес подарка, 
+//                общую стоимость подарка и вывести на консоль информацию о всех сладостях в подарке.
+
 public class Base {
 
     private static Object Kinder;
