@@ -6,7 +6,6 @@ public class Setc {
     private double price;
     private double weight;
 
-    public Setc() {}
 
     public Setc(String made, double price, double weight) {
         this.made = made;
