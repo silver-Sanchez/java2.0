@@ -14,9 +14,9 @@ public class Setc {
     }
 
     // MADE
-    public String getMade() {
-        return made;
-    }
+    // public String getMade() {
+    //   return made;
+     // }
 
 
     // price
