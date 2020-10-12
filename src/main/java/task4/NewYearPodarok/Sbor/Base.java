@@ -29,12 +29,14 @@ public class Base {
             System.out.println(gift.toString());
         }
 
+
         //  цена
         double allPrice = 0;
         for (int i = 0; i < box.length; i++) {
             allPrice = allPrice + box[i].getPrice();
         }
         System.out.println("стоимость подарка: " + allPrice);
+
 
 
         //  Вес

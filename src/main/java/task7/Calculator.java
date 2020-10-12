@@ -9,6 +9,9 @@ import java.util.Scanner;
 
 public class Calculator {
 
+    public Calculator(double one, double two, char operaciya) {
+    }
+
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("введите своё дробное число");
@@ -28,7 +31,8 @@ public class Calculator {
             bNumber.setNumber(two);
             aNumber.setNumber(one);
 
-
+         //   Calculator calcul = new Calculator(one, two, operaciya);
+         //   System.out.println("Результат: " + operaciya);
             operation.setOper(operaciya);
             operation.setResult(one, two, operaciya);
 

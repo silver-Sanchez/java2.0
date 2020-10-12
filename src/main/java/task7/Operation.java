@@ -1,5 +1,7 @@
 package task7;
 
+
+
 public class Operation {
     double result;
 
@@ -22,7 +24,7 @@ public class Operation {
 
     }
 
-    public void setResult(double one, double two, char operaciya) {
+    public double setResult(double one, double two, char operaciya) {
         switch (operaciya) {
             case '+':
                 result = one + two;
@@ -43,6 +45,8 @@ public class Operation {
 
 
         }
+
+        return result;
     }
 
 }
